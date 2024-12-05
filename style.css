@@ -11,20 +11,21 @@ body {
 }
 
 .wrapper {
-    width: 100vw;
     height: 100vh;
     background-color: rgb(34, 32, 32);
     position: relative;
-
 }
 
-.wrapper img {
+.wrapper .banner-dark {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     object-fit: cover;
+    object-position: bottom;
 }
+
 .sub-wrapper {
     width: 100%;
+    height: 100%;
 }
 
 nav {
@@ -37,10 +38,16 @@ nav {
     margin-right: 10px;
     font-size: 18px;
 }
+
+.container {
+    height: 100%;
+}
+
 .container-fluid a i {
     font-size: 35px;
     color: #fbb034;
 }
+
 .heading {
     font-size: 35px;
     color: white;
@@ -68,9 +75,11 @@ nav {
     font-weight: 500;
     padding-left: 15px;
 }
+
 form {
     position: relative;
 }
+
 form i {
     position: absolute;
     right: 15px;
@@ -80,34 +89,33 @@ form i {
     font-size: 18px;
     color: #fbb034;
 }
-.container {
-    height: 100%;
-}
+
 .hero-secation {
-    width: 100%;
-    height: 600px;
-    /* background-color: red; */
+    height: calc(100% - 80px);
     display: flex;
-    align-items: center ;
+    padding: 0px 20px;
 }
+
 .info-secation {
-    width: 50%;
-    height: 100%;
+    width: 55%;
     color: white;
     padding: 0 35px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     line-height: 1.6;
-    
+
 }
+
 .info-secation h1 {
     font-size: 50px;
 }
-.info-secation h1 span{
+
+.info-secation h1 span {
     font-weight: 600;
 }
+
 .info-secation a {
     text-decoration: none;
     font-size: 20px;
@@ -117,29 +125,17 @@ form i {
     width: fit-content;
     border-radius: 30px;
 }
+
 .img-secation {
-    width: 50%;
-    display: flex;
-    align-items: end;
-    justify-content: center;
+   width: 44%;
+   padding-top: 10px;
 
 }
 
 .img-secation img {
-    border-radius: 84% 16% 30% 70% / 56% 47% 53% 44%;
-    width: 80%;
-    height: 80%;
-    
+    border-radius: 75% 25% 32% 68% / 53% 47% 53% 47%;
 }
 
-.secation-two {
-
+.section-two {
     height: 100%;
-    width: 100%;
-    background-color: red;
-    display: flex;
-}
-
-.secation-two-img {
-    width: 40%;
 }
