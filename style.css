@@ -9,21 +9,137 @@ body {
     height: 100%;
     width: 100%;
 }
+
 .wrapper {
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color: rgb(34, 32, 32);
     position: relative;
-    display: flex;
-    justify-content: center;
 
 }
+
 .wrapper img {
     width: 100%;
     height: 100vh;
     object-fit: cover;
 }
+.sub-wrapper {
+    width: 100%;
+}
 
-.container {
+nav {
+    width: 100%;
+}
+
+.nav-item a {
+    font-weight: 600;
+    color: white;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.container-fluid a i {
+    font-size: 35px;
+    color: #fbb034;
+}
+.heading {
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #fbb034;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #fbb034;
+
+}
+
+.search-input {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+form {
+    position: relative;
+}
+form i {
     position: absolute;
-    top: 0;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 18px;
+    color: #fbb034;
+}
+.container {
+    height: 100%;
+}
+.hero-secation {
+    width: 100%;
+    height: 600px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center ;
+}
+.info-secation {
+    width: 50%;
+    height: 100%;
+    color: white;
+    padding: 0 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    line-height: 1.6;
+    
+}
+.info-secation h1 {
+    font-size: 50px;
+}
+.info-secation h1 span{
+    font-weight: 600;
+}
+.info-secation a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    background-color: #fbb034;
+    padding: 10px 20px;
+    width: fit-content;
+    border-radius: 30px;
+}
+.img-secation {
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
+
+.img-secation img {
+    border-radius: 84% 16% 30% 70% / 56% 47% 53% 44%;
+    width: 80%;
+    height: 80%;
+    
+}
+
+.secation-two {
+
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+
+.secation-two-img {
+    width: 40%;
 }
