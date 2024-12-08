@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 html,
@@ -11,21 +15,8 @@ body {
 }
 
 .wrapper {
+    background-color: #171717;
     height: 100vh;
-    background-color: rgb(34, 32, 32);
-    position: relative;
-}
-
-.wrapper .banner-dark {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: bottom;
-}
-
-.sub-wrapper {
-    width: 100%;
-    height: 100%;
 }
 
 nav {
@@ -33,15 +24,12 @@ nav {
 }
 
 .nav-item a {
-    font-weight: 600;
+    font-weight: 500;
     color: white;
     margin-right: 10px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
-.container {
-    height: 100%;
-}
 
 .container-fluid a i {
     font-size: 35px;
@@ -70,7 +58,7 @@ nav {
     color: white;
     padding: 10px;
     outline: none;
-    border: none;
+    border: solid 1px white;
     border-radius: 20px;
     font-weight: 500;
     padding-left: 15px;
@@ -90,52 +78,41 @@ form i {
     color: #fbb034;
 }
 
-.hero-secation {
-    height: calc(100% - 80px);
-    display: flex;
-    padding: 0px 20px;
+
+
+.info-section p {
+    margin-top: 10px;
+    font-size: 1.0rem;
+    line-height: 20px;
+    color: #808080;
+    letter-spacing: .5px;
+    line-height: 27px;
 }
 
-.info-secation {
-    width: 55%;
+.title {
+    font-size: 3.6em;
+    line-height: 75px;
+    font-weight: 300;
     color: white;
-    padding: 0 35px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 30px;
-    line-height: 1.6;
-
+    word-spacing: 1px;
 }
 
-.info-secation h1 {
-    font-size: 50px;
+.title span {
+    font-weight: 500;
 }
 
-.info-secation h1 span {
-    font-weight: 600;
-}
-
-.info-secation a {
+.info-section a {
+    font-size: .9em;
     text-decoration: none;
-    font-size: 20px;
-    color: black;
-    background-color: #fbb034;
-    padding: 10px 20px;
+    margin-top: 20px;
     width: fit-content;
-    border-radius: 30px;
+    background-color: #fbb034;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
 }
 
-.img-secation {
-   width: 44%;
-   padding-top: 10px;
-
-}
-
-.img-secation img {
+.image-fluid {
+    margin-top: 30px;
     border-radius: 75% 25% 32% 68% / 53% 47% 53% 47%;
-}
-
-.section-two {
-    height: 100%;
 }
