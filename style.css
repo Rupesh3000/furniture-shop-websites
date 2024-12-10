@@ -159,3 +159,33 @@ form i {
 .about-info-m p {
    color: #808080;
 }
+
+.section-three img {
+    width: 100%;
+}
+
+
+
+a.title-style-anchor {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+
+
+.grid-info p {
+    color: #808080;
+}
+
+.grid-content-sec {
+    color: #808080;
+    background-color: #171717;
+    margin: 10em 1em;
+    border-radius: 8px;
+}
