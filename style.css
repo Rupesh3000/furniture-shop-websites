@@ -157,7 +157,7 @@ form i {
 }
 
 .about-info-m p {
-   color: #808080;
+    color: #808080;
 }
 
 .section-three img {
@@ -188,4 +188,47 @@ a.title-style-anchor {
     background-color: #171717;
     margin: 10em 1em;
     border-radius: 8px;
+}
+
+
+.btn-style {
+    padding: 14px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background: #fbb034;
+    border: none;
+    transition: all .25s ease-in-out;
+}
+
+.content-sec-1 p {
+    color: #808080;
+}
+
+.img-responsive {
+    max-width: 100%;
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.gallery-img img {
+    width: 100%;
+    margin: 10px !important;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.gallery-section h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.gallery-section p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #808080;
 }
